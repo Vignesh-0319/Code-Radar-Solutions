@@ -10,7 +10,6 @@ int main(){
         arr[i+j]=arr[j];
     }
     scanf("%d",&a);
-    a=a+1;
     for(j=0; j<i; j++){
     b=j+a;
         printf("%d\n",arr[b]);
