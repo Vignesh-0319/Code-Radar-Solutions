@@ -11,7 +11,7 @@ int main(){
     for(j=0; j<i; j++){
     b=j+a;
     if(b>i){
-        b=b-2a;
+        b=b-a-a;
     } 
         print("%d",arr[b]);
     }
