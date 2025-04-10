@@ -10,9 +10,6 @@ int main(){
     a=a+1;
     for(j=0; j<i; j++){
     b=j+a;
-    if(b>i){
-        b=b-a-a;
-    } 
         print("%d",arr[b]);
     }
 }
