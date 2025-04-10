@@ -10,8 +10,9 @@ int main(){
         arr[i+j]=arr[j];
     }
     scanf("%d",&a);
-    for(j=0; j<i; j++){
-    b=j+a;
-        printf("%d\n",arr[b]);
+    for(j=0; j<i; j++){   
+    b=a;
+        printf("%d\n",arr[i-b]);
+    b=b-1;
     }
 }
