@@ -10,6 +10,6 @@ int main(){
     a=a+1;
     for(j=0; j<i; j++){
     b=j+a;
-        print("%d",arr[b]);
+        printf("%d",arr[b]);
     }
 }
